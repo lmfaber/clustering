@@ -1,0 +1,6 @@
+name: meshclust2
+channels:
+ - lmfaber
+dependencies:
+ - meshclust2=2.3.0
+

@@ -1,0 +1,7 @@
+name: trinity
+channels:
+ - bioconda
+ - conda-forge
+dependencies:
+ - trinity=2.8.4
+ - jemalloc=5.2.0

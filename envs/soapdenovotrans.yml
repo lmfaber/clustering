@@ -1,0 +1,6 @@
+name: soapdenovotrans
+channels:
+ - bioconda
+dependencies:
+ - soapdenovo-trans=1.04
+

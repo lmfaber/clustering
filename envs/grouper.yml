@@ -1,0 +1,6 @@
+name: grouper
+channels:
+ - lmfaber
+dependencies:
+ - biogrouper=0.1.3
+

@@ -1,0 +1,6 @@
+name: allTools
+channels:
+ - bioconda
+dependencies:
+ - cd-hit=4.8.1
+

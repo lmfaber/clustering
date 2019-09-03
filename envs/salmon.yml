@@ -1,0 +1,9 @@
+name: salmon
+channels:
+ - bioconda
+ - conda-forge
+dependencies:
+ - jemalloc=5.2.0
+ - salmon=0.13.1
+
+

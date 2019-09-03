@@ -1,0 +1,7 @@
+name: linclust
+channels:
+ - bioconda
+ - conda-forge
+dependencies:
+ - mmseqs2=10.6d92c
+
