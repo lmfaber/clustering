@@ -1,0 +1,19 @@
+# No. of threads
+threads: 40
+# Specify all reads you want to process:
+samples:
+ cel_flux_v4.PE:  # PAIRED END
+  fasta: /mnt/prostlocal/lasse/snakemake_pipelines/multi_assembly/output/cel_flux_v4.PE.fasta
+  reads: /mnt/prostlocal/lasse/snakemake_pipelines/multi_assembly/output/cel_flux_v4/fastp/cel_flux_v4_1.fastq, /mnt/prostlocal/lasse/snakemake_pipelines/multi_assembly/output/cel_flux_v4/fastp/cel_flux_v4_2.fastq
+ eco_ERR779269.PE: # PAIRED END
+  fasta: /mnt/prostlocal/lasse/snakemake_pipelines/multi_assembly/output/eco_ERR779269.PE.fasta
+  reads: /mnt/prostlocal/lasse/snakemake_pipelines/multi_assembly/output/eco_ERR779269/fastp/eco_ERR779269_1.fastq, /mnt/prostlocal/lasse/snakemake_pipelines/multi_assembly/output/eco_ERR779269/fastp/eco_ERR779269_2.fastq 
+ cel_SRR5456164.PE: # PAIRED END
+  fasta: /mnt/prostlocal/lasse/snakemake_pipelines/multi_assembly/output/cel_SRR5456164.PE.fasta
+  reads: /mnt/prostlocal/lasse/snakemake_pipelines/multi_assembly/output/cel_SRR5456164/fastp/cel_SRR5456164_1.fastq, /mnt/prostlocal/lasse/snakemake_pipelines/multi_assembly/output/cel_SRR5456164/fastp/cel_SRR5456164_2.fastq 
+ cel_ERR2886543.SE: # SINGLE END
+  fasta: /mnt/prostlocal/lasse/snakemake_pipelines/multi_assembly/output/cel_ERR2886543.SE.fasta
+  reads: /mnt/prostlocal/lasse/snakemake_pipelines/multi_assembly/output/cel_ERR2886543/fastp/cel_ERR2886543.fastq
+ eco_SRR4255368.SE: # SINGLE END
+  fasta: /mnt/prostlocal/lasse/snakemake_pipelines/multi_assembly/output/eco_SRR4255368.SE.fasta
+  reads: /mnt/prostlocal/lasse/snakemake_pipelines/multi_assembly/output/eco_SRR4255368/fastp/eco_SRR4255368.fastq

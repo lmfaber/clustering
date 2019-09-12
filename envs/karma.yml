@@ -1,9 +1,8 @@
-name: salmon
+name: karma
 channels:
+ - lmfaber
  - bioconda
  - conda-forge
 dependencies:
- - jemalloc=5.2.0
- - salmon=0.14.1
-
+ - karma=0.1.0
 
